@@ -1,17 +1,17 @@
 set nocompatible "use vim mode instead of pure vi
 
-" set the runtime path to include Vundle and initialize
+" Vundle settings
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'morhetz/gruvbox'
-Plugin 'ctrlpvim/ctrlp.vim' 
-Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-surround'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'ervandew/supertab'
-Plugin 'vimwiki/vimwiki'
+Plugin 'VundleVim/Vundle.vim'  " plugin manager
+Plugin 'morhetz/gruvbox' " color scheme
+Plugin 'ctrlpvim/ctrlp.vim' " fuzzy file finder
+Plugin 'scrooloose/nerdtree' " file tree
+Plugin 'tpope/vim-surround' " edit surrounding characters such as [] or <t></t>
+Plugin 'jiangmiao/auto-pairs' " automatically add matchins brackets, parens, etc.
+Plugin 'ervandew/supertab' " autocomplete with tab key
+Plugin 'vimwiki/vimwiki' " wiki editor
 
 call vundle#end()
 
@@ -23,9 +23,7 @@ set softtabstop=4 " backspace over 4 spaces like tabs
 set tabstop=4 " set tabulator length to 4
 
 " filetype specific settings
-filetype on " enable filetype detection
-filetype plugin on " load plugins for specific filetypes
-filetype indent on " automatically indent code
+filetype indent plugin on " filetype detection, load plugins for specific filetypes, auto indent code
 
 " syntax highlighting
 colorscheme gruvbox " set color scheme to solarized (must be installed)
@@ -37,10 +35,6 @@ set number " enable line numbering
 set guioptions-=T  " disable toolbar in gvim
 set guioptions-=r  " disable scrollbar in gvim
 set guifont=Consolas:h11 " set gvim font to Consolas 11
-
-" plugin-specific settings
-let g:table_mode_corner_corner="+"
-let g:table_mode_header_fillchar="="
 
 " keymaps
 nnoremap ; :
