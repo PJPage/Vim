@@ -1,2 +1,2 @@
 # Vim
-This is my vim configuration file. It may need to be changed slightly
+This is my vim configuration file. In order to use the plugins, you must install Vundle and run :PluginInstall when you start vim.
