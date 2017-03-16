@@ -4,7 +4,7 @@ This is my vim configuration file.
 
 ## Usage
 
-To use this configuration, copy the .vimrc file into your home folder.
+To use this configuration, copy the .vimrc file into your home folder and install the plugins as shown below. In Linux, you can skip both of these steps by simply running `install_linux.sh`.
 
 ## Installing Plugins
 
