@@ -11,7 +11,8 @@ Plugin 'tpope/vim-surround' " edit surrounding characters such as [] or <t></t>
 Plugin 'jiangmiao/auto-pairs' " automatically match quotes, brackets, etc.
 Plugin 'ervandew/supertab' " autocomplete with tab key
 Plugin 'kkoenig/wimproved.vim' "windows visual improvements
-Plugin 'godlygeek/tabular' "automatically align code
+Plugin 'godlygeek/tabular' " automatically align code
+Plugin 'rust-lang/rust.vim' " support for rust language
 call vundle#end()
 
 " plugin specific settings
