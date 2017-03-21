@@ -17,6 +17,7 @@ Plugin 'unblevable/quick-scope' " highlight letters to make f navigation easier
 Plugin 'sirver/ultisnips' " inert snippets of code
 Plugin 'honza/vim-snippets' " default snippets for ultisnips
 Plugin 'yuttie/comfortable-motion.vim' " inertial scrolling
+Plugin 'rust-lang/rust.vim' " syntax highlighting for the rust language
 call vundle#end()
 
 " plugin specific settings
