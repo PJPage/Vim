@@ -4,21 +4,36 @@ set nocompatible "use vim mode instead of pure vi
 set rtp+=~/.vim/bundle/Vundle.vim
 set rtp+=~/.vim/snippets
 call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'  " plugin manager
-Plugin 'morhetz/gruvbox' " color scheme
-Plugin 'tomasr/molokai' " alternate color scheme
-Plugin 'ctrlpvim/ctrlp.vim' " fuzzy file finder
+
+" plugin manager
+Plugin 'VundleVim/Vundle.vim'
+
+" color schemes
+Plugin 'morhetz/gruvbox'
+Plugin 'tomasr/molokai'
+Plugin 'altercation/vim-colors-solarized'
+
+" interface
 Plugin 'scrooloose/nerdtree' " file tree
+
+" editing
 Plugin 'tpope/vim-surround' " edit surrounding characters such as [] or <t></t>
 Plugin 'jiangmiao/auto-pairs' " automatically match quotes, brackets, etc.
 Plugin 'ervandew/supertab' " autocomplete with tab key
 Plugin 'kkoenig/wimproved.vim' " windows visual improvements
-Plugin 'godlygeek/tabular' " automatically align code
 Plugin 'unblevable/quick-scope' " highlight letters to make f navigation easier
+
+" language support
+Plugin 'rust-lang/rust.vim' " syntax highlighting for the rust language
+
+" automation
+Plugin 'godlygeek/tabular' " automatically align code
 Plugin 'sirver/ultisnips' " inert snippets of code
 Plugin 'honza/vim-snippets' " default snippets for ultisnips
-Plugin 'yuttie/comfortable-motion.vim' " inertial scrolling
-Plugin 'rust-lang/rust.vim' " syntax highlighting for the rust language
+
+" other
+Plugin 'kkoenig/wimproved.vim' " windows visual improvements
+
 call vundle#end()
 
 " plugin specific settings
@@ -36,7 +51,7 @@ set autoindent " automatically set indent level
 filetype indent plugin on " filetype detection, load plugins for specific filetypes, auto indent code
 
 " syntax highlighting
-colorscheme molokai " set color scheme to gruvbox (must be installed)
+colorscheme gruvbox " set color scheme to gruvbox (must be installed)
 set background=dark " dark background for console
 syntax enable "enable syntax highlighting
 set number " enable line numbering

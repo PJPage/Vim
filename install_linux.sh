@@ -1,5 +1,5 @@
-cp .vimrc ~
 cd ~
+cp Vim/.vimrc ~
 mkdir .vim
 cd .vim
 mkdir bundle
