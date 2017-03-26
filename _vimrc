@@ -27,7 +27,6 @@ Plugin 'unblevable/quick-scope' " highlight letters to make f navigation easier
 Plugin 'rust-lang/rust.vim' " syntax highlighting for the rust language
 
 " automation
-Plugin 'godlygeek/tabular' " automatically align code
 Plugin 'sirver/ultisnips' " inert snippets of code
 Plugin 'honza/vim-snippets' " default snippets for ultisnips
 

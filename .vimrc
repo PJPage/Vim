@@ -19,14 +19,12 @@ Plugin 'scrooloose/nerdtree' " file tree
 Plugin 'tpope/vim-surround' " edit surrounding characters such as [] or <t></t>
 Plugin 'jiangmiao/auto-pairs' " automatically match quotes, brackets, etc.
 Plugin 'ervandew/supertab' " autocomplete with tab key
-Plugin 'kkoenig/wimproved.vim' " windows visual improvements
 Plugin 'unblevable/quick-scope' " highlight letters to make f navigation easier
 
 " language support
 Plugin 'rust-lang/rust.vim' " syntax highlighting for the rust language
 
 " automation
-Plugin 'godlygeek/tabular' " automatically align code
 Plugin 'sirver/ultisnips' " inert snippets of code
 Plugin 'honza/vim-snippets' " default snippets for ultisnips
 
