@@ -1,0 +1,30 @@
+snippet html
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8"> 
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>${1}</title>
+			${2}
+		</head>
+		<body>
+			${0}
+		</body>
+	</html>
+
+snippet jslink
+	<script src="${0}"></script>
+
+snippet csslink
+	<link rel="stylesheet" type="text/css" href="${0}">
+
+snippet canvas
+	<canvas id="${1:canvas}"></canvas>
+
+snippet t
+	<${1:}>
+		${0}
+	</$1>
+
+snippet ti
+	<${1:}>${0}</$1> 
