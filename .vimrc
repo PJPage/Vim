@@ -1,7 +1,8 @@
 set nocompatible "use vim mode instead of pure vi
 
-" Vundle settings
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/snippets
+
 call vundle#begin()
 
 " plugin manager
@@ -25,8 +26,9 @@ Plugin 'unblevable/quick-scope' " highlight letters to make f navigation easier
 Plugin 'rust-lang/rust.vim' " syntax highlighting for the rust language
 
 " automation
-Plugin 'sirver/ultisnips' " inert snippets of code
-Plugin 'honza/vim-snippets' " default snippets for ultisnips
+Plugin 'garbas/vim-snipmate' " code snippets and supporting plugins
+Plugin 'MarcWeber/vim-addon-mw-utils' 
+Plugin 'tomtom/tlib_vim'
 
 call vundle#end()
 
