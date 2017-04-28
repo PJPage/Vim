@@ -46,6 +46,7 @@ set shiftwidth=4 " set indentation depth to 4
 set softtabstop=4 " backspace over 4 spaces like tabs
 set tabstop=4 " set tab length to 4
 set autoindent " automatically set indent level
+set incsearch " incremental search (similar to emacs)
 
 " filetype specific settings
 filetype indent plugin on " filetype detection, load plugins for specific filetypes, auto indent code
