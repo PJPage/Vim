@@ -1,6 +1,7 @@
 cd ~
 cp Vim/.vimrc ~
 mkdir .vim
+cp -r Vim/snippets .vim
 cd .vim
 mkdir bundle
 cd bundle

@@ -15,6 +15,7 @@ Plugin 'altercation/vim-colors-solarized'
 
 " interface
 Plugin 'scrooloose/nerdtree' " file tree
+Plugin 'jeetsukumaran/vim-buffergator' " better buffer navigation
 
 " editing
 Plugin 'tpope/vim-surround' " edit surrounding characters such as [] or <t></t>
@@ -66,3 +67,7 @@ set guifont=Consolas:h11 " set gvim font to Consolas 11
 let mapleader = "\\"
 nnoremap ; :
 nnoremap <Leader>nt :NERDTree<CR>
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
